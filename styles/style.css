@@ -82,6 +82,7 @@ nav-bar
 }
 
 /* ------------------------features----------------------- */
+
 .quick-list {
     display: flex;
     align-items: center;
@@ -356,6 +357,7 @@ footer{
         grid-template-columns: repeat(1, 1fr);
         width: 95%;
         padding: 0;
+        margin: 0 auto;
     }
     .quick-list{
         flex-direction: column;
@@ -367,9 +369,10 @@ footer{
     }
     
     
+    
     .love-description
     , .love-title, .love-list{
-        width: 100%;
+        width: 95%;
     }
     .list-information{
        width:  100%;
@@ -377,10 +380,17 @@ footer{
     }
     .more-features{
        flex-direction: column;
-       width: 95%;
-       margin: 0 auto;
+       justify-items: center;
+       align-items: center;
+       width: 90%;
+       margin: 0;
+       margin-right: 0;
+      
+       
     }
-    
+    body{
+        margin: 0;
+    }
     .love-title{
         margin-bottom: 30px;
     }
