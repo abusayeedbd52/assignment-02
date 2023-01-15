@@ -26,6 +26,8 @@ nav-bar
 .items {
     display: flex;
     list-style: none;
+    width:100%;
+    padding: 0;
 }
 
 .item {
@@ -84,7 +86,8 @@ nav-bar
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-left: 50px;
+    margin: 0 auto;
+    width: 90%;
 
 }
 
@@ -314,7 +317,7 @@ width: 50%;
 }
 /* -----------------footer----------------- */
 footer{
-    border: 1px solid black;width: 1440px;
+    /* border: 1px solid black;width: 1440px; */
     /* height: 100px; */
     background: #FFF4E7;
     justify-content: center;
@@ -322,7 +325,7 @@ footer{
     /* padding-top: 20px; */
     padding: 15px;
     border-style: none;
-    margin-left: 210px;
+    /* margin-left: 210px; */
     margin-bottom: 20px;
 }
 .end{
@@ -351,25 +354,33 @@ footer{
     }
     .quick-img{
         grid-template-columns: repeat(1, 1fr);
-        width: 100%;
+        width: 95%;
+        padding: 0;
     }
     .quick-list{
         flex-direction: column;
         width: 100%;
     }
     .quick-details{
-        width: 100%;
+        width: 95%;
+        padding: 0;
     }
     
     
     .love-description
-    , .love-title, .love-list, .list-information{
+    , .love-title, .love-list{
         width: 100%;
+    }
+    .list-information{
+       width:  100%;
+       
     }
     .more-features{
        flex-direction: column;
-       width: 100%;
+       width: 95%;
+       margin: 0 auto;
     }
+    
     .love-title{
         margin-bottom: 30px;
     }
@@ -389,6 +400,7 @@ footer{
     
     .fact-details{
         grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
         width: 70%;
     }
     .facts-info{
@@ -410,12 +422,16 @@ footer{
     }
     .sponsor-img{
         grid-template-columns: repeat(1, 1fr);
-        grid-column-gap: 10px;
-        width: 100%;
+        grid-column-gap: 20px;
+        width: 95%;
     }
     footer{
-width: 100%;
+width: 95%;
+padding: 0;
 margin-left: 0;
+    }
+    .brand-title{
+        font-weight: 500;
     }
     
     }
